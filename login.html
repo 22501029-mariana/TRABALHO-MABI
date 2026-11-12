@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mabi Café - Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+<a href="index.html" class="logo">
+マビ
+</a>
+<nav>
+<a href="index.html">
+Home
+</a>
+<a href="menu.html">
+Menu
+</a>
+<a href="avaliacoes.html">
+Avaliações
+</a>
+<a href="pedidos.html">
+Pedidos
+</a>
+<a href="cadastro.html">
+Cadastro
+</a>
+</nav>
+
+<label class="theme-switch">
+<span>🐱</span>
+<input type="checkbox" id="themeToggle">
+<span class="slider"></span>
+<span>🐈‍⬛</span>
+</label>
+
+</header>
+
+<main class="page">
+<div class="page-title">
+<p class="jp">
+ログイン
+</p>
+<h1>
+Entrar
+</h1>
+<p>
+Entre na sua conta ♡
+</p>
+</div>
+
+<form class="form-card" id="loginForm">
+<label>
+E-mail
+
+<input
+type="email"
+name="email"
+maxlength="80"
+required
+placeholder="seuemail@email.com">
+                
+</label>
+
+<label>
+Senha
+<input
+type="password"
+name="senha"
+minlength="6"
+maxlength="30"
+required
+placeholder="Digite sua senha">
+</label>
+
+<button
+type="submit"
+class="btn"
+>
+Entrar
+</button>
+
+<p
+id="loginMessage"
+class="message">
+</p>
+
+<p class="cadastro-link">
+Ainda não tem uma conta?
+<a href="cadastro.html">
+Criar conta
+</a>
+</p>
+</form>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

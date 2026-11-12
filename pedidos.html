@@ -1,0 +1,132 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabi Café — Pedidos</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <header class="topbar">
+    <a class="logo-mobile" href="index.html">マビ</a>
+    <nav>
+    <a href="index.html">Home</a><a href="menu.html">Menu</a>
+    <a href="avaliacoes.html">Avaliações</a><a class="active" href="pedidos.html">Pedidos</a><a href="cadastro.html">Cadastro</a>
+    </nav>
+    <label class="theme-switch"><span>🐱</span><input type="checkbox" id="themeToggle"><span class="slider"></span><span>🐈‍⬛</span></label>
+    </header>
+
+    <main class="page">
+    <div class="page-title">
+    <p class="jp">注文</p>
+    <h1>Faça seu pedido</h1>
+    <p>Monte seu pedido de um jeito simples ♡</p>
+    </div>
+
+    <form class="form-card" id="orderForm">
+    <label>Seu nome
+    <input type="text" name="nome" maxlength="40" required>
+    </label>
+    <label>Produto
+    <select name="produto" required>
+
+    <optgroup label="Hello Kitty">
+    <option value="Café Hello Kitty">
+    Café Hello Kitty - R$ 19,50
+    </option>
+
+    <option value="Cupcake Hello Kitty">
+    Cupcake Hello Kitty - R$ 20,00
+    </option>
+
+    <option value="Shake Hello Kitty">
+    Shake Hello Kitty - R$ 25,00
+    </option>
+    </optgroup>
+
+    <optgroup label="LGBT">
+    <option value="Café Colorido">
+    Café Colorido - R$ 16,00
+    </option>
+
+    <option value="Bolo Colorido">
+    Bolo Colorido - R$ 24,50
+    </option>
+
+    <option value="Panqueca Colorida">
+    Panqueca Colorida - R$ 12,50
+    </option>
+    </optgroup>
+
+    <optgroup label="Korilakkuma">
+    <option value="Sorvete Korilakkuma">
+    Sorvete Korilakkuma - R$ 25,00
+    </option>
+
+    <option value="Chá Korilakkuma">
+    Chá Korilakkuma - R$ 15,70
+    </option>
+
+    <option value="Milkshake Korilakkuma">
+    Milkshake Korilakkuma - R$ 16,90
+    </option>
+    </optgroup>
+
+    <optgroup label="K-pop">
+    <option value="Torta K-pop">
+    Torta K-pop - R$ 32,99
+    </option>
+
+    <option value="Bolo K-pop">
+    Bolo K-pop - R$ 27,90
+    </option>
+
+    <option value="Biscoitos K-pop">
+    Biscoitos K-pop - R$ 19,90
+    </option>
+    </optgroup>
+
+    <optgroup label="Batman">
+    <option value="Donuts Batman">
+    Donuts Batman - R$ 14,90
+    </option>
+
+    <option value="Cupcake Batman">
+    Cupcake Batman - R$ 16,80
+    </option>
+
+    <option value="Doces Batman">
+    Doces Batman - R$ 14,90
+    </option>
+    </optgroup>
+
+    <optgroup label="Gato">
+    <option value="Anéis de gato">
+    Anéis de gato - R$ 16,90
+    </option>
+
+    <option value="Bolo de gato">
+    Bolo de gato - R$ 22,70
+    </option>
+
+    <option value="Pizza de gato">
+    Pizza de gato - R$ 16,90
+    </option>
+    </optgroup>
+
+    </select>
+    </label>
+    </label>
+    <label>Quantidade
+    <input type="number" name="quantidade" min="1" max="20" inputmode="numeric" required>
+    </label>
+    <label>Observação
+    <textarea name="observacao" maxlength="200" placeholder="Ex.: sem açúcar..."></textarea>
+    </label>
+    <button type="submit" class="btn">Enviar pedido</button>
+    <p id="orderMessage" class="message"></p>
+    </form>
+    </main>
+    <script src="script.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,70 @@
+  <!DOCTYPE html>
+  <html lang="pt-BR">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mabi Café — Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <header class="topbar">
+  <a class="logo-mobile" href="index.html">マビ</a>
+  <nav>
+  <a href="index.html">Home</a><a href="menu.html">Menu</a>
+  <a href="avaliacoes.html">Avaliações</a><a href="pedidos.html">Pedidos</a><a class="active" href="cadastro.html">Cadastro</a>
+  </nav>
+  <label class="theme-switch"><span>🐱</span><input type="checkbox" id="themeToggle"><span class="slider"></span><span>🐈‍⬛</span></label>
+  </header>
+
+  <main class="page">
+  <div class="page-title">
+  <p class="jp">登録</p>
+  <h1>Crie sua conta</h1>
+  <p>Preencha seus dados para continuar ♡</p>
+  </div>
+
+  <form class="form-card" id="registerForm">
+  <div class="form-grid">
+  <label>Nome
+  <input type="text" name="nome" maxlength="40" required>
+  </label>
+
+  <label>CPF
+  <input type="text" name="cpf" id="cpf" maxlength="14" inputmode="numeric" placeholder="000.000.000-00" required>
+  </label>
+
+  <label>Telefone
+  <input type="text" name="telefone" id="telefone" maxlength="15" inputmode="numeric" placeholder="(00) 00000-0000" required>
+  </label>
+
+  <label>CEP
+  <input type="text" name="cep" id="cep" maxlength="9" inputmode="numeric" placeholder="00000-000" required>
+  </label>
+
+  <label>Idade
+  <input type="number" name="idade" min="1" max="120" inputmode="numeric" required>
+  </label>
+
+  <label>E-mail
+  <input type="email" name="email" maxlength="80" required>
+  </label>
+
+  <label class="full">Senha
+  <input type="password" name="senha" minlength="6" maxlength="30" required>
+  </label>
+  </div>
+
+  <button type="submit" class="btn">
+  Cadastrar
+  </button>
+
+  <p class="login-link">
+  Já tem uma conta?
+  <a href="login.html">Entrar</a>
+  </p>
+
+  <p id="registerMessage" class="message"></p>
+  </main>
+  <script src="script.js"></script>
+  </body>
+  </html>

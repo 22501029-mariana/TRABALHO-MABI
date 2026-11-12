@@ -1,0 +1,129 @@
+{
+"categorias": [
+{
+"nome": "Cafés",
+"produtos": [
+{
+"nome": "Café Hello Kitty",
+"preco": 19.50,
+"imagem": "imagens/cafe1.png"
+},
+{
+"nome": "Cupcake Hello Kitty",
+"preco": 20.00,
+"imagem": "imagens/cafe2.png"
+},
+{
+"nome": "Shake Hello Kitty",
+"preco": 25.00,
+"imagem": "imagens/cafe3.png"
+}
+]
+},
+
+{
+"nome": "Doces",
+"produtos": [
+{
+"nome": "Café Colorido",
+"preco": 16.00,
+"imagem": "imagens/doce1.png"
+},
+{
+"nome": "Bolo Colorido",
+"preco": 24.50,
+"imagem": "imagens/doce2.png"
+},
+{
+"nome": "Panqueca Colorida",
+"preco": 12.50,
+"imagem": "imagens/doce3.png"
+}
+]
+},
+
+{
+"nome": "Bolos",
+"produtos": [
+{
+"nome": "Sorvete Korilakkuma",
+"preco": 25.00,
+"imagem": "imagens/bolo1.png"
+},
+{
+"nome": "Chá Korilakkuma",
+"preco": 15.70,
+"imagem": "imagens/bolo2.png"
+},
+{
+"nome": "Milkshake Korilakkuma",
+"preco": 16.90,
+"imagem": "imagens/bolo3.png"
+}
+]
+},
+
+{
+"nome": "Milkshakes",
+"produtos": [
+{
+"nome": "Torta K-pop",
+"preco": 32.99,
+"imagem": "imagens/m1.png"
+},
+{
+"nome": "Bolo K-pop",
+"preco": 27.90,
+"imagem": "imagens/m2.png"
+},
+{
+"nome": "Biscoitos K-pop",
+"preco": 19.90,
+"imagem": "imagens/m3.png"
+}
+]
+},
+
+{
+"nome": "Salgados",
+"produtos": [
+{
+"nome": "Donuts Batman",
+"preco": 14.90,
+"imagem": "imagens/bat1.png"
+},
+{
+"nome": "Cupcake Batman",
+"preco": 16.80,
+"imagem": "imagens/bat2.png"
+},
+{
+"nome": "Doces Batman",
+"preco": 14.90,
+"imagem": "imagens/bat3.png"
+}
+]
+ },
+
+{
+"nome": "Biscoitos",
+"produtos": [
+{
+"nome": "Anéis de gato",
+"preco": 16.90,
+"imagem": "imagens/g1.png"
+},
+{
+"nome": "Bolo de gato",
+"preco": 22.70,
+"imagem": "imagens/g2.png"
+},
+{
+"nome": "Pizza de gato",
+"preco": 16.90,
+"imagem": "imagens/g3.png"
+}
+]
+}
+]
+}
